@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./abc.js" defer></script>
+    <title>Document</title>
+    <style>
+        .card-container{
+            border: 1px solid black;
+            background-color: blueviolet;
+            color: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            width: 400px;
+        }
+        .profile{
+            border: 1px solid black;
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            
+        }
+        .profile img{
+            border-radius: 50%;
+            width: 5rem;
+        }
+        .position,
+        .description{
+           opacity: 0.6;
+        }
+        .outer-container-flex{
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
+        }
+        @media screen and (max-width:985px){
+            .card-container{
+                background-color: brown;
+                width: 80%;
+            }
+            .outer-container{
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex example</h1>
+    <div class="outer-container">
+    <div class="card-container">
+        <div class="profile">
+            <div style="border:1px sodid black">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.62vIM9Jk0un2ldc2g2u1ZAHaHa&pid=Api&P=0">
+            </div>
+            <div style="line-height: 1rem;">
+                <h2 class="name">Peter Shade</h2>
+                <p class="position">verified graduate</p>
+                </div>
+        </div>
+        <div>
+            <p>what is Lorem Ipsum?</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. At auctor urna nunc id cursus metus aliquam eleifend mi. Mattis enim ut tellus elementum sagittis vitae et leo. Vel pretium lectus quam id leo in vitae. Proin fermentum leo vel orci. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. Turpis massa tincidunt dui ut ornare lectus sit amet.</p>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="profile">
+            <div style="border:1px sodid black">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.62vIM9Jk0un2ldc2g2u1ZAHaHa&pid=Api&P=0">
+            </div>
+            <div style="line-height: 1rem;">
+                <h2 class="name">Peter Shade</h2>
+                <p class="position">verified graduate</p>
+                </div>
+        </div>
+        <div>
+            <p>what is Lorem Ipsum?</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. At auctor urna nunc id cursus metus aliquam eleifend mi. Mattis enim ut tellus elementum sagittis vitae et leo. Vel pretium lectus quam id leo in vitae. Proin fermentum leo vel orci. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. Turpis massa tincidunt dui ut ornare lectus sit amet.</p>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="profile">
+            <div style="border:1px sodid black">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.62vIM9Jk0un2ldc2g2u1ZAHaHa&pid=Api&P=0">
+            </div>
+            <div style="line-height: 1rem;">
+                <h2 class="name">Peter Shade</h2>
+                <p class="position">verified graduate</p>
+                </div>
+        </div>
+        <div>
+            <p>what is Lorem Ipsum?</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. At auctor urna nunc id cursus metus aliquam eleifend mi. Mattis enim ut tellus elementum sagittis vitae et leo. Vel pretium lectus quam id leo in vitae. Proin fermentum leo vel orci. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. Turpis massa tincidunt dui ut ornare lectus sit amet.</p>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="profile">
+            <div style="border:1px sodid black">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.62vIM9Jk0un2ldc2g2u1ZAHaHa&pid=Api&P=0">
+            </div>
+            <div style="line-height: 1rem;">
+                <h2 class="name">Peter Shade</h2>
+                <p class="position">verified graduate</p>
+                </div>
+        </div>
+        <div>
+            <p>what is Lorem Ipsum?</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. At auctor urna nunc id cursus metus aliquam eleifend mi. Mattis enim ut tellus elementum sagittis vitae et leo. Vel pretium lectus quam id leo in vitae. Proin fermentum leo vel orci. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. Turpis massa tincidunt dui ut ornare lectus sit amet.</p>
+        </div>
+    </div>
+    </div>
+    <h1>Grid example</h1>
+    <div class="outer-container">
+    <div class="card-container">
+        <div class="profile">
+            <div style="border:1px sodid black">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.62vIM9Jk0un2ldc2g2u1ZAHaHa&pid=Api&P=0">
+            </div>
+            <div style="line-height: 1rem;">
+                <h2 class="name">Peter Shade</h2>
+                <p class="position">verified graduate</p>
+                </div>
+        </div>
+        <div>
+            <p>what is Lorem Ipsum?</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. At auctor urna nunc id cursus metus aliquam eleifend mi. Mattis enim ut tellus elementum sagittis vitae et leo. Vel pretium lectus quam id leo in vitae. Proin fermentum leo vel orci. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. Turpis massa tincidunt dui ut ornare lectus sit amet.</p>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="profile">
+            <div style="border:1px sodid black">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.62vIM9Jk0un2ldc2g2u1ZAHaHa&pid=Api&P=0">
+            </div>
+            <div style="line-height: 1rem;">
+                <h2 class="name">Peter Shade</h2>
+                <p class="position">verified graduate</p>
+                </div>
+        </div>
+        <div>
+            <p>what is Lorem Ipsum?</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. At auctor urna nunc id cursus metus aliquam eleifend mi. Mattis enim ut tellus elementum sagittis vitae et leo. Vel pretium lectus quam id leo in vitae. Proin fermentum leo vel orci. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. Turpis massa tincidunt dui ut ornare lectus sit amet.</p>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="profile">
+            <div style="border:1px sodid black">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.62vIM9Jk0un2ldc2g2u1ZAHaHa&pid=Api&P=0">
+            </div>
+            <div style="line-height: 1rem;">
+                <h2 class="name">Peter Shade</h2>
+                <p class="position">verified graduate</p>
+                </div>
+        </div>
+        <div>
+            <p>what is Lorem Ipsum?</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. At auctor urna nunc id cursus metus aliquam eleifend mi. Mattis enim ut tellus elementum sagittis vitae et leo. Vel pretium lectus quam id leo in vitae. Proin fermentum leo vel orci. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. Turpis massa tincidunt dui ut ornare lectus sit amet.</p>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="profile">
+            <div style="border:1px sodid black">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.62vIM9Jk0un2ldc2g2u1ZAHaHa&pid=Api&P=0">
+            </div>
+            <div style="line-height: 1rem;">
+                <h2 class="name">Peter Shade</h2>
+                <p class="position">verified graduate</p>
+                </div>
+        </div>
+        <div>
+            <p>what is Lorem Ipsum?</p>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. At auctor urna nunc id cursus metus aliquam eleifend mi. Mattis enim ut tellus elementum sagittis vitae et leo. Vel pretium lectus quam id leo in vitae. Proin fermentum leo vel orci. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. Turpis massa tincidunt dui ut ornare lectus sit amet.</p>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
